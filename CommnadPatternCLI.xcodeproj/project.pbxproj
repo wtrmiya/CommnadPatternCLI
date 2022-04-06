@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		86D3123327FD931E0070E643 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3123227FD931E0070E643 /* main.swift */; };
+		86D3123A27FD93AA0070E643 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3123927FD93AA0070E643 /* Calculator.swift */; };
+		86D3123C27FDAD690070E643 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3123B27FDAD690070E643 /* Commands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		86D3122F27FD931E0070E643 /* CommnadPatternCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommnadPatternCLI; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D3123227FD931E0070E643 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		86D3123927FD93AA0070E643 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		86D3123B27FDAD690070E643 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		86D3123E27FDBF020070E643 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,8 @@
 		86D3122627FD931E0070E643 = {
 			isa = PBXGroup;
 			children = (
+				86D3123D27FDBEF40070E643 /* Playground */,
+				86D3124027FE2CFD0070E643 /* Common */,
 				86D3123127FD931E0070E643 /* CommnadPatternCLI */,
 				86D3123027FD931E0070E643 /* Products */,
 			);
@@ -57,9 +64,26 @@
 		86D3123127FD931E0070E643 /* CommnadPatternCLI */ = {
 			isa = PBXGroup;
 			children = (
-				86D3123227FD931E0070E643 /* main.swift */,
+				86D3123927FD93AA0070E643 /* Calculator.swift */,
+				86D3123B27FDAD690070E643 /* Commands.swift */,
 			);
 			path = CommnadPatternCLI;
+			sourceTree = "<group>";
+		};
+		86D3123D27FDBEF40070E643 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				86D3123E27FDBF020070E643 /* MyPlayground.playground */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		86D3124027FE2CFD0070E643 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				86D3123227FD931E0070E643 /* main.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86D3123327FD931E0070E643 /* main.swift in Sources */,
+				86D3123C27FDAD690070E643 /* Commands.swift in Sources */,
+				86D3123A27FD93AA0070E643 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
